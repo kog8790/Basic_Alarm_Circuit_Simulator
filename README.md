@@ -1,10 +1,15 @@
-# Basic_Alarm_Circuit_Simulator
-The intended purpose for this program is to simulate a basic alarm circuit.
+# Basic_Alarm_Circuit_Simulator (More technically a dual EOL resistance in circuit calculator) or RICC(Resistance In Circuit Calculator)
+The intended purpose for this program is to simulate a basic alarm circuit to serve as a training module for Alarm Technicians learning dual EOL circuit basics.
 
-The following components will be integrated into this program for the purpose of simulating an alarm circuit:
-  1. Alarm Panel: 8 points with shared common between each pair of points. Total of 12 terminal screws. Inductance of 3.3v for each point.
-  2. Grid: a 24x24 grid to place components on and measure voltage and resistance between points or nodes on this grid.
-  3. Conductors: 4 conductor colors Green, White, Red, and black. These conductors have .0001 ohms resistance.
-  4. Resistors: 1K, 2.2k, 5k, and 10k resistors will be optional components to place in the circuit on the grid
-  5. Switch: Each switch will have 3 terminals. A normally closed terminal, normally open terminal, and a common terminal.
-  6. Multimeter: This component computes the math of measuring across any two nodes on the grid/circuit.
+This was my very first program that I wrote all on my own. Before this I had done some projects with open source code that I edited a bit to make it do what I needed for my use case but had never written anything from scratch.
+
+In it's current form it's still a bit shy of my aspirations.
+
+Here is a list of things I'm still looking to do with it.
+  1. Have a drop down style menu for selecting resistance value and a plus sign button to add the resistor of that value to the board.
+    - Need dynamic class instance creation based on selection
+  3. Move short circuit line and calculation to center of circuit rather than at the end.
+  4. Have one of the circuits be normally open so that there is a normally open and normally closed side for testing and training
+  5. Create a panel type drop down menu that changes what values constitute the different states i.e Alarm, Secured, Trouble, etc...
+  6. Add a daisy chain feature that switches the view from two independent circuits to a single daisy chain circuit with the two HUBs.
+  7. Lastly my current executable doesn't include the images. Meaning they have to be downloaded seperately. I would like to include them all in a single file.
