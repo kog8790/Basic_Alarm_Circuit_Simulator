@@ -8,6 +8,7 @@ In it's current form it's still a bit shy of my aspirations.
 Here is a list of things I'm still looking to do with it.
   1. Have a drop down style menu for selecting resistance value and a plus sign button to add the resistor of that value to the board.
     - Need dynamic class instance creation based on selection
+    - Add function for calculating complex resistor circuit with x number of resistors in series and parallel.
   3. Move short circuit line and calculation to center of circuit rather than at the end.
   4. Have one of the circuits be normally open so that there is a normally open and normally closed side for testing and training
   5. Create a panel type drop down menu that changes what values constitute the different states i.e Alarm, Secured, Trouble, etc...
